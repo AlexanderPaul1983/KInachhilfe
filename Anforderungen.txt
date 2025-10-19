@@ -1,0 +1,20 @@
+User:
+1. Als User möchte ich, Unterrichtssprache auswählen, sodass ich die Inhalte verstehen kann.
+2. Als User möchte ich, eine Sprachausgabe während des Unterrichts ein oder ausschalten können.
+3. Als User möchte ich,  mich anmelden können, damit ich Nachhilfedienst nutzen kann.
+4. Als User möchte ich, mich einloggen können - mit meinem regestriertem Usernamen und Password.
+5. Als User möchte ich, meine Kontodaten auf der Webseite ablegen, sodass das Geld automatisch abgebucht 
+	werden kann.
+6. Als User möchte ich, per Sprache mit der KI-Lehrer kommunizieren können.
+7. Als User möchte ich aus unterschiedlichen Themenbereichen auswählen können.
+8. Als User möchte ich ein Dashboard haben in dem ich mein Vortschritt, meine vorgängigen Unterrichtseinheiten und Lerninhalte sehen kann und da drauf zu zugreifen können.
+9. Als User möchte ich, auf meine beendeten Unterrichten zugreifen, damit ich die Themen wiederholen kann.
+10. 
+
+
+System:
+1. Als System möchte ich, Bilder für alle meine Erklärungen generieren, sodass User visuelle Lerninhalte hat.
+2. Als System möchte ich, überprüfen können, ob der User sich angemeldet hat.
+3. Als System möchte ich, überprüfen, ob der User genug Geld auf seinem Konto für den Unterricht besitzt oder nicht.
+4. Als System möchte ich, dem User für seine ausgewählte Thema einen Plan erstellen, also ein Thema in sinnvolle Unterthemen aufteilen.
+5. Als System möchte ich, dem User
