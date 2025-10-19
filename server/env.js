@@ -1,17 +1,10 @@
 import dotenv from 'dotenv';
-import { createRequire } from 'module'; const require = createRequire(import.meta.url);
+import process from 'node:process';
 dotenv.config();
 
-function requireEnv(name) {
-  const v = process.env[name];
-  if (!v) { throw new Error(`Missing ENV ${name}`); }
-  return v;
-}
-
 export const ENV = {
-  DEEPSEEK_API_KEY: requireEnv('DEEPSEEK_API_KEY'),
-  DEEPSEEK_BASE_URL: process.env.DEEPSEEK_BASE_URL || 'https://api.deepseek.com/v1',
-  DEEPSEEK_MODEL: process.env.DEEPSEEK_MODEL || 'deepseek-chat',
+  OLLAMA_BASE_URL: process.env.OLLAMA_BASE_URL || 'http://localhost:11434',
+  OLLAMA_MODEL: process.env.OLLAMA_MODEL || 'qwen3:8b',
   PORT: Number(process.env.PORT || 4000),
   CLIENT_URL: process.env.CLIENT_URL || 'http://localhost:5173'
 };
