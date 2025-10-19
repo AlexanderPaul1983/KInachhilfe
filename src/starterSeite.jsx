@@ -37,8 +37,8 @@ export function StarterPage() {
   }
 
   return (
-    <>
-      <button onClick={() => navigate('/')}>Zurück</button>
+    <div className="starter-wrapper">
+      <button className="back-button" onClick={() => navigate('/')}>Zurück</button>
 
       <form onSubmit={handleSubmit} className="label">
         <input name="name" value={form.name} onChange={handleChange} type="text" placeholder="Wie ist dein Name?" required />
@@ -48,6 +48,6 @@ export function StarterPage() {
         <input name="age" value={form.age} onChange={handleChange} type="number" placeholder="Wie alt bist du?" required />
         <button type="submit">Starten</button>
       </form>
-    </>
+    </div>
   )
 }
